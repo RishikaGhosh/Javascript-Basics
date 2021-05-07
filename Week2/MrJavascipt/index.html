@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+			<meta charset="utf-8">
+			<title>Mr. JavaScript</title>
+	</head>
+	<body>
+        <h1> Im Mr JavaScript</h1>
+        <a href="#" class="howru">Hey Javascript!How are you?</a>
+        <a href="#" class="reset">Reset</a>
+        <script>
+            var a =document.querySelector(".howru");
+            a.addEventListener('click',function(){
+                var h1=document.querySelector("h1");
+                h1.innerHTML="Im alive!";
+                console.log(h1);
+            });
+            var r=document.querySelector(".reset");
+            r.addEventListener('click',function(){
+                var h1=document.querySelector("h1");
+                h1.innerHTML="Im Mr JavaScript";
+                console.log(h1);
+            });
+        </script>
+	</body>
+</html>
+
+/* Understood the concepts of DOM objects querySelector,addEventListener,innerHTML
