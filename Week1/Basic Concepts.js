@@ -8,7 +8,7 @@
 			/* Basic CSS comment */
 			body {
 				background: grey;
-				color: white;
+				color: grey;
 				width: 960px;
 				margin: 0 auto;
 				font-size: 30px;
